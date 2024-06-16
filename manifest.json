@@ -1,0 +1,15 @@
+{
+  "name": "http-only cookies sender",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Sending cookies including http-only via popup extensions.",
+  "permissions": [
+    "cookies"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
